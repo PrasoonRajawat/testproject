@@ -10,6 +10,9 @@ sap.ui.define([
         return Controller.extend("testproject.controller.View1", {
             onInit: function () {
 
+            },
+            onClicked : function(){
+                alert("clicked");
             }
         });
     });
